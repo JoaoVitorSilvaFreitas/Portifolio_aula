@@ -6,10 +6,26 @@
 }
 
 body {
-    height:100vh;
     box-sizing: border-box;
     background-color: #262D33;
     color: #f6f6f6;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_botao{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#3598F0;
+    
 }
 
 .main{
@@ -22,7 +38,7 @@ body {
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    margin: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +46,6 @@ body {
 
 .apresentacao_conteudo{
     width: 615px;
-    height: 482px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -84,4 +99,13 @@ body {
 .apresentacao_foto_avulsa {
     width: 488px;
     height: 550px;
+}
+
+.rodape{
+    color:#3b4752;
+    background-color: #3598F0;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat" sans-serif;
+    font-size: 24px;
 }
